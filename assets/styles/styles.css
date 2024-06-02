@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;  
+    font-family: "Livvic", sans-serif;
 }
-/* body{
-    background: #7c5a9c;
-} */
+body{
+   overflow-x: hidden;
+} 
 #menubar{
     box-shadow: 2px 8px 5px 0px rgba(0,0,0,0.48);
 -webkit-box-shadow: 2px 8px 5px 0px rgba(0,0,0,0.48);
