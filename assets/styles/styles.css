@@ -26,6 +26,8 @@
 }
 .aboutHead{
     font-size: 80px;
+    font-family: "Press Start 2P", system-ui;
+     word-wrap: break-word;
 }
 .aboutText1{
     font-size: 30px;
