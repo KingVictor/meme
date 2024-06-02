@@ -36,6 +36,24 @@
     font-size: 30px;
     font-weight: bold;
 }
+@media only screen and (max-width: 600px) {
+    .aboutText1, .aboutText2 {
+        font-size: 18px;
+    }
+}
+.socials{
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+    
+}
 .socials{
     list-style-type: none;
     padding: 10px;
