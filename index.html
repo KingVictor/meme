@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
     <!-- Styles Links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    
     <!-- Script links -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c8aa9717eb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>$MEME</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
@@ -52,8 +50,8 @@
     </section>
     
     <section id="about">
-        <div class="container mt-5 text-justify">
-            <h1 class="aboutHead text-center">About $MEME</h1>
+        <div class="container mt-5 text-justify" data-aos="zoom-in">
+            <h1 class="aboutHead text-center m-3">About $MEME</h1>
             <p  class="aboutText1 text-center">$MEME combines the iconic MAGA movement with the beloved Pepe the Frog, creating a unique meme coin driven by community and decentralized principles. With innovative tokenomics, including a deflationary model and rewards for holders, MEME ensures both fun and value. Engaging the global community through memes, contests, and NFT drops, we aim to make MEME a household name in the crypto space, fostering a vibrant, inclusive culture.
 
                 Join the $MEME revolution today and be part of the most exciting meme coin project of the year! Whether you're a seasoned investor or new to crypto, MEME offers a blend of entertainment and real value, with plans to expand into NFTs, a marketplace, and DeFi products. Together, let's take $MEME to the moon and beyond!</p>
@@ -65,18 +63,18 @@
     <section id="tokenomics">
         <div class="container  p-3 text-center">
             <h1 class="aboutHead">$MEME Tokenomics</h1>
-            <p class="aboutText1">Contract Address:
+            <p class="aboutText1"><b>Contract Address:</b>
                 2Xn4cBcrksaBMMxw8Ebwu
                 xY7iG8HUiZx1XEiCXQsGeSo</p>
             <div class="row">
-                <div class="container col-sm-5 p-4 border rounded mt-3 mb-3">
+                <div class="container col-sm-5 p-4 border rounded mt-3 mb-3" data-aos="fade-right">
                     <i class="fa  fa-chain" aria-hidden="true" style="font-size: 60px;"></i>
                     <h1>Total Supply</h1>
                     <p class="text-justify aboutText1 ">
                        $MEME total Supply: 42,069,000,000,000,000
                     </p>
                 </div>
-                <div class="container col-sm-5 p-3 text-center border rounded mt-3 mb-3">
+                <div class="container col-sm-5 p-3 text-center border rounded mt-3 mb-3" data-aos="fade-left">
                     <i class="fa fa-users" aria-hidden="true" style="font-size: 60px;"></i>
                     <h1>Tax</h1>
                     <p class="aboutText1">
@@ -89,9 +87,9 @@
             </div>
           </div>
     </section>
-
+   
     <section id="roadmap">
-        <div class="roadmaoContent container">
+        <div class="roadmaoContent container" data-aos="zoom-in-up">
             <h1 class="text-center aboutHead">$MEME Roadmap</h1>
             <p class="text-center aboutText1">
                 Get your funk on, because the $MEME roadmap is like a wild dance party waiting to happen! We're keeping it locked up tight, but here's the scoop: once we hit 3,000 holders of the coin, we'll unleash the roadmap extravaganza! It's a tantalizing glimpse into the future, filled with mind-blowing plans, exciting milestones, and cosmic collaborations. So gather your crew, spread the word, and let's groove our way to 3,000 holders to unlock the roadmap of infinite possibilities. Get ready to shake, shimmy, and sizzle with $MEME</p>
@@ -101,10 +99,10 @@
 
     <footer id="footer" class="bg-dark p-3 mt-5">
         <div class="container-fluid row">
-          <div class="col-sm-4 ">
+          <div class="col-sm-6 ">
             <a class="navbar-brand pt-5" href="#"><h1 class="text-justify">$MEME</h1></a>
           </div>
-          <div class="col-sm-8 ">
+          <div class="col-sm-6 ">
             <ul class="d-flex justify-content-end socials">
               <li>
                 <a class="p-2" href="#"><i class="fa  fa-telegram" aria-hidden="true" style="font-size: 50px;"></i></a>
@@ -120,6 +118,9 @@
         </div>
     </footer>
   
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
 
